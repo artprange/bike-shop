@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Search, ShoppingBag } from 'lucide-react'
+import Image from 'next/image'
 
 export function Header() {
   return (
@@ -22,6 +23,19 @@ export function Header() {
           <ShoppingBag className="h-4 2-4" />
           <span className="text-sm">Cart (0)</span>
         </div>
+
+        <div className="w-px h-4 bg-zinc-700" />
+
+        <Link href="/" className="flex items-center gap-2 hover:underline">
+          <span className="text-sm">Account</span>
+          <Image
+            src="https://github.com/artprange.png"
+            className="h-6 w-6 rounded-full"
+            width={24}
+            height={24}
+            alt=""
+          />
+        </Link>
       </div>
     </div>
   )
