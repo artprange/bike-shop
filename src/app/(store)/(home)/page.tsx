@@ -9,7 +9,7 @@ export default async function Home() {
         className="group relative col-span-6 row-span-6 rounded-lg bg-zinc-900 overflow-hidden flex justify-center items-end"
       >
         <Image
-          src="/moletom-never-stop-learning.png"
+          src="/moletom-never-stop-learning.svg"
           className="group-hover:scale-105 transition-transform duration-500"
           width={920}
           height={920}
@@ -30,7 +30,7 @@ export default async function Home() {
         className="group relative col-span-3 row-span-3 rounded-lg bg-zinc-900 overflow-hidden flex justify-center items-end"
       >
         <Image
-          src="/moletom-java.png"
+          src="/moletom-java.svg"
           className="group-hover:scale-105 transition-transform duration-500"
           width={920}
           height={920}
@@ -51,7 +51,7 @@ export default async function Home() {
         className="group relative col-span-3 row-span-3 rounded-lg bg-zinc-900 overflow-hidden flex justify-center items-end"
       >
         <Image
-          src="/camiseta-dowhile-2022.png"
+          src="/camiseta-dowhile-2022.svg"
           className="group-hover:scale-105 transition-transform duration-500"
           width={920}
           height={920}
