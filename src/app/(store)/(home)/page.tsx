@@ -1,5 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { api } from '@/data/api'
+
+async gerFeaturedProducts(){
+  consr response = await api
+}
+
+
 
 export default async function Home() {
   return (
